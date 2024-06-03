@@ -1,11 +1,11 @@
 import "./App.scss";
 
-const EXTRA_DATA = [
-  { label: "Текила Olmeca silver 40мл", price: "20" },
-  { label: "Текила Olmeca gold 40мл", price: "20" },
-];
+// const EXTRA_DATA = [
+//   { label: "Текила Olmeca silver 40мл", price: "20" },
+//   { label: "Текила Olmeca gold 40мл", price: "20" },
+// ];
 
-const STOCK_DATA = [{ label: "Настойки", price: "20" }];
+// const STOCK_DATA = [{ label: "Настойки", price: "20" }];
 
 function App() {
   return (
