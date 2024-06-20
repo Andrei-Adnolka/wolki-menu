@@ -10,11 +10,19 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">WOLKI Grill</header>
+      <header className="App-header">
+        <img
+          src="./wolki-logo.png"
+          alt="menu"
+          loading="lazy"
+          className="logo"
+        />
+      </header>
       <div className="App-menu">
+        <div className="App-menu-title">WOLKI + WINLINE</div>
+        <img src="./winline.jpg" alt="menu" loading="lazy" />
         <div className="App-menu-title">МЕНЮ</div>
         <img src="./menu.png" alt="menu" loading="lazy" />
-        <div className="divider" />
         <div className="App-menu-title">БАР</div>
         <img src="./bar.png" alt="menu" loading="lazy" />
         {/* <div className="App-menu-title">ДОП</div>
