@@ -19,8 +19,6 @@ function App() {
         />
       </header>
       <div className="App-menu">
-        <div className="App-menu-title">WOLKI + WINLINE</div>
-        <img src="./winline.jpg" alt="menu" loading="lazy" />
         <div className="App-menu-title">МЕНЮ</div>
         <img src="./menu.png" alt="menu" loading="lazy" />
         <div className="App-menu-title">БАР</div>
