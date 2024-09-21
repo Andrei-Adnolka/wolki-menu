@@ -19,6 +19,7 @@ function App() {
         />
       </header>
       <div className="App-menu">
+        <img src="./omenu.png" alt="menu" loading="lazy" />
         <div className="App-menu-title">МЕНЮ</div>
         <img src="./menu.jpeg" alt="menu" loading="lazy" />
         <div className="App-menu-title">БАР</div>
