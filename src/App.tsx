@@ -22,7 +22,7 @@ function App() {
         <div className="App-menu-title">МЕНЮ</div>
         <img src="./menu.jpeg" alt="menu" loading="lazy" />
         <div className="App-menu-title">БАР</div>
-        <img src="./bar.png" alt="menu" loading="lazy" />
+        <img src="./bar.jpeg" alt="menu" loading="lazy" />
         {/* <div className="App-menu-title">ДОП</div>
         <div className="App-menu-extra">
           <div>
