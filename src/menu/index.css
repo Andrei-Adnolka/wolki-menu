@@ -142,7 +142,7 @@
 }
 
 .menu-list li {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   font-weight: 400;
   color: #000;
   position: relative;
@@ -154,7 +154,7 @@
   text-transform: uppercase;
   color: #d46c3c;
   display: block;
-  width: 90%;
+  width: 85%;
 }
 .menu-list li span {
   display: block;
@@ -164,7 +164,7 @@
 }
 
 .menu-list li small {
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
   color: #333;
   display: block;
@@ -173,7 +173,7 @@
 }
 
 .price[class] {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #000;
   position: absolute;
