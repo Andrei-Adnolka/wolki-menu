@@ -142,14 +142,14 @@
 }
 
 .menu-list li {
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   font-weight: 400;
   color: #000;
   position: relative;
 }
 
 .menu-list li b {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   color: #d46c3c;
@@ -164,7 +164,7 @@
 }
 
 .menu-list li small {
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   color: #333;
   display: block;
