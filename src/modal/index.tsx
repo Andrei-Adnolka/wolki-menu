@@ -6,17 +6,17 @@ const l10n = {
   ru: {
     yes: "да",
     no: "нет",
-    ages: "Вам есть 18 лет?",
+    ages: "Вам есть 18 лет и вы находитесь в заведении Wolki Grill?",
   },
   en: {
     yes: "Yes",
     no: "No",
-    ages: "Are you 18 years old?",
+    ages: "Are you 18 years old and present at Wolki Grill?",
   },
   zh: {
     yes: "是",
     no: "否",
-    ages: "您满18岁了吗？",
+    ages: "您满18岁且在Wolki Grill吗?",
   },
 };
 
