@@ -5,6 +5,7 @@ import Menu from "./menu";
 
 function App() {
   const [lang, setLang] = useState<"ru" | "en" | "zh">("ru");
+
   return (
     <div className="App">
       <Menu lang={lang} setLang={setLang} />

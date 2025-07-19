@@ -1,0 +1,78 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(247, 243, 232, 0.9);
+  /* светлый полупрозрачный фон, похожий на .menu-container bg */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-window {
+  background-color: #f7f3e8;
+  /* как у меню */
+  border-radius: 16px;
+  box-shadow: 0 0 10px #ddd;
+  padding: 20px 10px;
+  max-width: 320px;
+  width: 90%;
+  text-align: center;
+  font-family: inherit;
+  color: #000;
+  position: relative;
+  border: 2px solid #d46c3c;
+}
+
+.modal-window p {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  color: #d46c3c;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.modal-buttons button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 28px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  user-select: none;
+}
+
+.btn-yes {
+  background-color: #d46c3c;
+  color: #fff;
+  border-color: #d46c3c;
+}
+
+.btn-yes:hover {
+  background-color: #b35428;
+  border-color: #b35428;
+}
+
+.btn-no[class] {
+  background-color: transparent;
+  color: #d46c3c;
+  border: 2px solid #d46c3c;
+}
+
+.btn-no:hover {
+  background-color: #f0d8b3;
+  border-color: #b35428;
+  color: #b35428;
+}
