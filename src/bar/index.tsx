@@ -19,6 +19,8 @@ function Bar({ lang }: { lang: Lang }) {
   useEffect(() => {
     if (!barRef.current) return;
 
+    const node = barRef.current; // сохраняем в локальную переменную
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -39,10 +41,10 @@ function Bar({ lang }: { lang: Lang }) {
       }
     );
 
-    observer.observe(barRef.current);
+    observer.observe(node);
 
     return () => {
-      if (barRef.current) observer.unobserve(barRef.current);
+      observer.unobserve(node);
     };
   }, [is18]);
 
