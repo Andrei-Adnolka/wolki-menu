@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.scss";
 import Bar from "./bar";
 import Menu from "./menu";
+import Drinks from "./drinks";
 
 function App() {
   const [lang, setLang] = useState<"ru" | "en" | "zh">("ru");
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Menu lang={lang} setLang={setLang} />
       <Bar lang={lang} />
+      <Drinks lang={lang} />
     </div>
   );
 }

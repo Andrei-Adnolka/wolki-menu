@@ -59,7 +59,7 @@ export const MENU = [
   },
   {
     label: { ru: "СУП/САЛАТ", en: "SOUP/SALAD", zh: "汤/沙拉" },
-    background: "orange-bg",
+    background: "without-bg",
     links: [
       {
         label: {
@@ -78,6 +78,19 @@ export const MENU = [
         },
         price: "13 ",
         photo: "Фото 2, левый средний блок, раздел СУП/САЛАТ",
+      },
+      {
+        label: {
+          ru: "Суп Свекольник (250 г)",
+          en: "Beetroot soup (250 g)",
+          zh: "甜菜汤 (250 克)",
+        },
+        description: {
+          ru: "на кефире с картофельными дольками",
+          en: "with kefir and potato wedges",
+          zh: "配酸奶和土豆块",
+        },
+        price: "11 ",
         isBottomDots: true,
       },
       {
@@ -152,7 +165,7 @@ export const MENU = [
           en: "Panko shrimp (250 g)",
           zh: "日式面包屑炸虾 (250 克)",
         },
-        price: "23 ",
+        price: "26 ",
         photo: "Фото 2, левый нижний блок, раздел ЗАКУСКИ",
       },
       {
@@ -190,6 +203,34 @@ export const MENU = [
         },
         price: "5,50 ",
         photo: "Фото 2, левый нижний блок, раздел ЗАКУСКИ",
+      },
+      {
+        label: {
+          ru: "Наггетсы (150 г)",
+          en: "Nuggets (150 g)",
+          zh: "鸡块 (150 克)",
+        },
+        description: {
+          ru: "с соусом на выбор",
+          en: "with sauce of your choice",
+          zh: "配自选酱料",
+        },
+        price: "12 ",
+        photo: "Фото 4, левый средний блок, раздел ЗАКУСКИ",
+      },
+      {
+        label: {
+          ru: "Соус (50 г)",
+          en: "Sauce (50 g)",
+          zh: "酱 (50 克)",
+        },
+        description: {
+          ru: "в ассортименте",
+          en: "in assortment",
+          zh: "多种选择",
+        },
+        price: "2.5 ",
+        photo: "Фото 5, левый средний блок, раздел СОУСЫ",
       },
     ],
   },
@@ -235,29 +276,44 @@ export const MENU = [
       },
       {
         label: {
-          ru: "Мякоть бедра в соусе Карри (250 г)",
-          en: "Thigh Meat in Curry Sauce (250 g)",
-          zh: "咖喱酱大腿肉 (250 克)",
+          ru: "Мякоть бедра",
+          en: "Thigh Meat",
+          zh: "大腿肉",
         },
-        price: "17 ",
+        description: {
+          ru: "в соусе Карри (250 г)",
+          en: "in Curry sauce (250 g)",
+          zh: "配咖喱酱 (250 克)",
+        },
+        price: "17",
         photo: "Фото 2, правый верхний блок, раздел ГРИЛЬ",
       },
       {
         label: {
-          ru: "Куриные колбаски с картофелем фри и горчичным соусом (350 г)",
-          en: "Chicken Sausages with Fries and Mustard Sauce (350 g)",
-          zh: "鸡肉香肠配薯条和芥末酱 (350 克)",
+          ru: "Куриные колбаски",
+          en: "Chicken Sausages",
+          zh: "鸡肉香肠",
         },
-        price: "25 ",
+        description: {
+          ru: "с картофелем фри и горчичным соусом (350 г)",
+          en: "with fries and mustard sauce (350 g)",
+          zh: "配薯条和芥末酱 (350 克)",
+        },
+        price: "25",
         photo: "Фото 2, правый верхний блок, раздел ГРИЛЬ",
       },
       {
         label: {
-          ru: "Доннер со свининой в соусе BBQ (320 г)",
-          en: "Doner with Pork in BBQ Sauce (320 g)",
-          zh: "猪肉烤肉配烧烤酱 (320 克)",
+          ru: "Доннер со свининой",
+          en: "Doner with Pork",
+          zh: "猪肉烤肉",
         },
-        price: "15 ",
+        description: {
+          ru: "в соусе BBQ (320 г)",
+          en: "in BBQ sauce (320 g)",
+          zh: "配烧烤酱 (320 克)",
+        },
+        price: "15",
         photo: "Фото 2, правый верхний блок, раздел ГРИЛЬ",
       },
       {
@@ -271,11 +327,16 @@ export const MENU = [
       },
       {
         label: {
-          ru: "Хот-дог с куриной колбаской и беконом (225 г)",
-          en: "Hot Dog with Chicken Sausage and Bacon (225 g)",
-          zh: "热狗配鸡肉香肠和培根 (225 克)",
+          ru: "Хот-дог",
+          en: "Hot Dog",
+          zh: "热狗",
         },
-        price: "12 ",
+        description: {
+          ru: "с куриной колбаской и беконом (225 г)",
+          en: "with chicken sausage and bacon (225 g)",
+          zh: "配鸡肉香肠和培根 (225 克)",
+        },
+        price: "12",
         photo: "Фото 2, правый верхний блок, раздел ГРИЛЬ",
       },
     ],
@@ -340,7 +401,7 @@ export const MENU = [
           en: "Cake of the Day (130 g)",
           zh: "今日蛋糕 (130 克)",
         },
-        price: "10 ",
+        price: "11 ",
         photo: "Фото 2, правый нижний блок, раздел ДЕСЕРТЫ",
         isBottomDots: true,
       },
@@ -360,7 +421,7 @@ export const MENU = [
 export const BAR = [
   {
     label: { ru: "ПИВО", en: "BEER", zh: "啤酒" },
-    background: "black-bg",
+    background: "without-bg",
     links: [
       {
         label: {
@@ -395,7 +456,7 @@ export const BAR = [
           en: "Staropramen (500/330 ml)",
           zh: "斯塔罗普拉门 (500/330 毫升)",
         },
-        price: "8/6",
+        price: "8/7",
         photo: "Фото 1, левый верхний блок, раздел ПИВО, Разливное",
       },
       {
@@ -404,7 +465,7 @@ export const BAR = [
           en: "Krusovice Light (500/330 ml)",
           zh: "克鲁索维采淡啤 (500/330 毫升)",
         },
-        price: "8/6",
+        price: "8/7",
         photo: "Фото 1, левый верхний блок, раздел ПИВО, Разливное",
       },
       {
@@ -427,7 +488,7 @@ export const BAR = [
       },
       {
         label: { ru: "IPA (400 мл)", en: "IPA (400 ml)", zh: "IPA (400 毫升)" },
-        price: "11",
+        price: "10",
         photo: "Фото 1, левый верхний блок, раздел ПИВО, Разливное",
       },
       {
@@ -436,7 +497,7 @@ export const BAR = [
           en: "WIT (White Wheat) (400 ml)",
           zh: "WIT (白小麦啤酒) (400 毫升)",
         },
-        price: "11",
+        price: "10",
         photo: "Фото 1, левый верхний блок, раздел ПИВО, Разливное",
       },
       {
@@ -445,7 +506,7 @@ export const BAR = [
           en: "Nepravilny Med (400 ml)",
           zh: "错误蜂蜜 (400 毫升)",
         },
-        price: "11",
+        price: "10",
         photo: "Фото 1, левый верхний блок, раздел ПИВО, Разливное",
       },
       {
@@ -454,7 +515,7 @@ export const BAR = [
           en: "Sidorova Koza (cider) (400 ml)",
           zh: "西多罗娃山羊 (苹果酒) (400 毫升)",
         },
-        price: "11",
+        price: "10",
         photo: "Фото 1, левый верхний блок, раздел ПИВО, Разливное",
       },
       {
@@ -472,12 +533,12 @@ export const BAR = [
           en: "Chocolate Stout (450 ml)",
           zh: "巧克力世涛 (450 毫升)",
         },
-        price: "11",
+        price: "10",
         photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
       },
       {
         label: { ru: "APA (450 мл)", en: "APA (450 ml)", zh: "APA (450 毫升)" },
-        price: "11",
+        price: "10",
         photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
       },
       {
@@ -486,7 +547,7 @@ export const BAR = [
           en: "Hardy (assorted) (450 ml)",
           zh: "哈迪 (多种) (450 毫升)",
         },
-        price: "10",
+        price: "9",
         photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
       },
       {
@@ -675,7 +736,7 @@ export const BAR = [
           en: "Kava Brut (750 ml)",
           zh: "卡瓦布鲁特 (750 毫升)",
         },
-        price: "69",
+        price: "71",
         photo: "Фото 1, правый блок, раздел ВИНО/ПОРТВЕЙН, Игристое",
       },
     ],
@@ -834,7 +895,7 @@ export const BAR = [
           en: "William Lawson's (40 ml)",
           zh: "威廉·劳森 (40 毫升)",
         },
-        price: "9",
+        price: "10",
         photo: "Фото 1, левый блок, раздел ВИСКИ",
       },
       {
@@ -843,7 +904,7 @@ export const BAR = [
           en: "Jim Beam (40 ml)",
           zh: "吉姆·比姆 (40 毫升)",
         },
-        price: "10",
+        price: "11",
         photo: "Фото 1, левый блок, раздел ВИСКИ",
       },
       {
@@ -852,7 +913,7 @@ export const BAR = [
           en: "Jameson (40 ml)",
           zh: "詹姆森 (40 毫升)",
         },
-        price: "11",
+        price: "12",
         photo: "Фото 1, левый блок, раздел ВИСКИ",
       },
       {
@@ -861,7 +922,7 @@ export const BAR = [
           en: "J. Walker Red Label (40 ml)",
           zh: "杰克·沃克红牌 (40 毫升)",
         },
-        price: "10",
+        price: "12",
         photo: "Фото 1, левый блок, раздел ВИСКИ",
       },
       {
@@ -870,7 +931,7 @@ export const BAR = [
           en: "Jack Daniels old 7 (40 ml)",
           zh: "杰克丹尼老7 (40 毫升)",
         },
-        price: "14",
+        price: "15",
         photo: "Фото 1, левый блок, раздел ВИСКИ",
       },
     ],
@@ -885,7 +946,7 @@ export const BAR = [
           en: "Bacardi Carta Blanca (40 ml)",
           zh: "百加得白朗姆 (40 毫升)",
         },
-        price: "9",
+        price: "10",
         photo: "Фото 1, левый блок, раздел РОМ",
       },
       {
@@ -894,7 +955,7 @@ export const BAR = [
           en: "Captain Morgan Dark (40 ml)",
           zh: "摩根船长黑朗姆 (40 毫升)",
         },
-        price: "9",
+        price: "10",
         photo: "Фото 1, левый блок, раздел РОМ",
       },
       {
@@ -903,7 +964,7 @@ export const BAR = [
           en: "Captain Morgan White (40 ml)",
           zh: "摩根船长白朗姆 (40 毫升)",
         },
-        price: "9",
+        price: "10",
         photo: "Фото 1, левый блок, раздел РОМ",
       },
     ],
@@ -918,7 +979,7 @@ export const BAR = [
           en: "Bicken's (40 ml)",
           zh: "比肯金酒 (40 毫升)",
         },
-        price: "9",
+        price: "10",
         photo: "Фото 1, левый блок, раздел ДЖИН",
       },
       {
@@ -982,6 +1043,325 @@ export const BAR = [
         },
         price: "5",
         photo: "Фото 1, левый блок, раздел НАСТОЙКИ",
+      },
+    ],
+  },
+];
+
+export const DRINKS = [
+  {
+    label: { ru: "ЛИМОНАДЫ", en: "LIMONADES", zh: "柠檬水" },
+    background: "black-bg",
+    links: [
+      {
+        label: {
+          ru: "Классический (1 литр)",
+          en: "Classic (1 liter)",
+          zh: "经典 (1升)",
+        },
+        price: "17",
+        photo: "Лимонад 1 литр",
+      },
+      {
+        label: {
+          ru: "Лимон/Огурец (250 мл)",
+          en: "Lemon/Cucumber (250 ml)",
+          zh: "柠檬/黄瓜 (250 毫升)",
+        },
+        price: "7",
+        photo: "Лимонад Милон/Огурец",
+      },
+      {
+        label: {
+          ru: "Малина/Мята (250 мл)",
+          en: "Raspberry/Mint (250 ml)",
+          zh: "覆盆子/薄荷 (250 毫升)",
+        },
+        price: "7",
+        photo: "Лимонад Малина/Мята",
+      },
+      {
+        label: {
+          ru: "Вишня/Соленая карамель (250 мл)",
+          en: "Cherry/Salted Caramel (250 ml)",
+          zh: "樱桃/咸焦糖 (250 毫升)",
+        },
+        price: "7",
+        photo: "Лимонад Вишня/Смородина",
+      },
+      {
+        label: {
+          ru: "Апельсиновый Шоколад (250 мл)",
+          en: "Orange Chocolate (250 ml)",
+          zh: "橙色巧克力 (250 毫升)",
+        },
+        price: "7",
+        photo: "Лимонад Апельсиновый Шоколад",
+      },
+      {
+        label: {
+          ru: "Холодный Фруктовый чай (230 мл)",
+          en: "Iced Fruit Tea (230 ml)",
+          zh: "冰水果茶 (230 毫升)",
+        },
+        price: "6",
+        photo: "Лимонад Фруктовый чай",
+      },
+    ],
+  },
+  {
+    label: { ru: "Коктейли", en: "COCKTAILS", zh: "鸡尾酒" },
+    background: "light-bg",
+    links: [
+      {
+        label: {
+          ru: "Калимочо (260 мл)",
+          en: "Kalimotxo (260 ml)",
+          zh: "卡利莫乔 (260 毫升)",
+        },
+        price: "13",
+        photo: "Коктейль Калимото",
+      },
+      {
+        label: {
+          ru: "Апероль Шприц (290 мл)",
+          en: "Aperol Spritz (290 ml)",
+          zh: "阿佩罗斯普利兹 (290 毫升)",
+        },
+        price: "19",
+        photo: "Коктейль Апероль Шприц",
+      },
+      {
+        label: {
+          ru: "Беллини (170 мл)",
+          en: "Bellini (170 ml)",
+          zh: "贝里尼 (170 毫升)",
+        },
+        price: "16",
+        photo: "Коктейль Bellini",
+      },
+      {
+        label: {
+          ru: "Куба Либре (190 мл)",
+          en: "Cuba Libre (190 ml)",
+          zh: "古巴自由 (190 毫升)",
+        },
+        price: "16",
+        photo: "Коктейль Куба Либре",
+      },
+      {
+        label: {
+          ru: "Палома (190 мл)",
+          en: "Paloma (190 ml)",
+          zh: "帕洛玛 (190 毫升)",
+        },
+        price: "16",
+        photo: "Коктейль Палома",
+      },
+      {
+        label: {
+          ru: "Россо Тоник (200 мл)",
+          en: "Rosso Tonic (200 ml)",
+          zh: "洛索汤力 (200 毫升)",
+        },
+        price: "16",
+        photo: "Коктейль Россо Тоник",
+      },
+      {
+        label: {
+          ru: "Вишнёвый Мартини (200 мл)",
+          en: "Cherry Martini (200 ml)",
+          zh: "樱桃马天尼 (200 毫升)",
+        },
+        price: "16",
+        photo: "Коктейль Черри Мартини",
+      },
+      {
+        label: {
+          ru: "Виски & Ананасовый Сок (125 мл)",
+          en: "Whisky & Pineapple Juice (125 ml)",
+          zh: "威士忌菠萝汁 (125 毫升)",
+        },
+        price: "15",
+        photo: "Коктейль Pineapple Juice",
+      },
+    ],
+  },
+  {
+    label: { ru: "На основе кофе", en: "COFFEE-BASED", zh: "基于咖啡" },
+    background: "black-bg",
+    links: [
+      {
+        label: {
+          ru: "Бамбл (250 мл)",
+          en: "Bumble (250 ml)",
+          zh: "大黄蜂 (250 毫升)",
+        },
+        price: "8",
+        photo: "Кофе Бамбл",
+      },
+      {
+        label: {
+          ru: "Эспрессо Тонник (250 мл)",
+          en: "Espresso Tonic (250 ml)",
+          zh: "espresso汤力 (250 毫升)",
+        },
+        price: "8",
+        photo: "Кофе Эспрессо",
+      },
+      {
+        label: {
+          ru: "Айс Латте (250 мл)",
+          en: "Iced Latte (250 ml)",
+          zh: "冰拿铁 (250 毫升)",
+        },
+        price: "7",
+        photo: "Кофе Айс Латте",
+      },
+      {
+        label: {
+          ru: "Айс Раффаэло (120 мл)",
+          en: "Iced Raffaello (120 ml)",
+          zh: "冰拉法埃洛 (120 毫升)",
+        },
+        price: "7",
+        photo: "Кофе Айс Раффаэло",
+      },
+    ],
+  },
+  {
+    label: { ru: "Горячий кофе", en: "HOT COFFEE", zh: "热咖啡" },
+    background: "without-bg",
+    links: [
+      {
+        label: {
+          ru: "Рафф (250 мл)",
+          en: "Raff (250 ml)",
+          zh: "拉夫 (250 毫升)",
+        },
+        price: "7",
+        photo: "Горячий кофе Рафф",
+      },
+      {
+        label: {
+          ru: "Волки Рафф (300 мл)",
+          en: "Wolf Raff (300 ml)",
+          zh: "野狼拉夫 (300 毫升)",
+        },
+        price: "8",
+        photo: "Горячий кофе Волшебный Рафф",
+      },
+    ],
+  },
+  {
+    label: { ru: "Сангрия", en: "SANGRIA", zh: "桑格里亚" },
+    background: "orange-bg",
+    links: [
+      {
+        label: {
+          ru: "Сангрия красная (250 мл)",
+          en: "Red Sangria (250 ml)",
+          zh: "红桑格里亚 (250 毫升)",
+        },
+        price: "7",
+        photo: "Сангрия красная",
+      },
+      {
+        label: {
+          ru: "Сангрия красная (1 литр)",
+          en: "Red Sangria (1 liter)",
+          zh: "红桑格里亚 (1升)",
+        },
+        price: "23",
+        photo: "Сангрия красная 1 литр",
+      },
+      {
+        label: {
+          ru: "Сангрия белая (250 мл)",
+          en: "White Sangria (250 ml)",
+          zh: "白桑格里亚 (250 毫升)",
+        },
+        price: "7",
+        photo: "Сангрия красная",
+      },
+      {
+        label: {
+          ru: "Сангрия белая (1 литр)",
+          en: "White Sangria (1 liter)",
+          zh: "白桑格里亚 (1升)",
+        },
+        price: "23",
+        photo: "Сангрия белая 1 литр",
+      },
+    ],
+  },
+  {
+    label: { ru: "Замесы", en: "MIXES", zh: "混合" },
+    background: "without-bg",
+    links: [
+      {
+        label: {
+          ru: "Виски/Кола (250 мл)",
+          en: "Whiskey/Coke (250 ml)",
+          zh: "威士忌/可乐 (250 毫升)",
+        },
+        price: "9",
+        photo: "Замес Виски/Кола",
+      },
+      {
+        label: {
+          ru: "Виски/Сок (250 мл)",
+          en: "Whiskey/Juice (250 ml)",
+          zh: "威士忌/果汁 (250 毫升)",
+        },
+        price: "9",
+        photo: "Замес Виски/Сок",
+      },
+      {
+        label: {
+          ru: "Джин/Тоник (250 мл)",
+          en: "Gin/Tonic (250 ml)",
+          zh: "杜松子酒/汤力水 (250 毫升)",
+        },
+        price: "9",
+        photo: "Замес Джин/Тоник",
+      },
+      {
+        label: {
+          ru: "Ром/Кола (250 мл)",
+          en: "Rum/Coke (250 ml)",
+          zh: "朗姆酒/可乐 (250 毫升)",
+        },
+        price: "9",
+        photo: "Замес Ром/Кола",
+      },
+      {
+        label: {
+          ru: "Ром/Цитрусовый сок (250 мл)",
+          en: "Rum/Citrus Juice (250 ml)",
+          zh: "朗姆酒/柑橘汁 (250 毫升)",
+        },
+        price: "9",
+        photo: "Замес Ром/Цитрусовый сок",
+      },
+
+      {
+        label: {
+          ru: "Водка/Кола (250 мл)",
+          en: "Vodka/Coke (250 ml)",
+          zh: "伏特加/可乐 (250 毫升)",
+        },
+        price: "9",
+        photo: "Замес Водка/Кока",
+      },
+      {
+        label: {
+          ru: "Водка/Сок (250 мл)",
+          en: "Vodka/Juice (250 ml)",
+          zh: "伏特加/果汁 (250 毫升)",
+        },
+        price: "9",
+        photo: "Замес Водка/Сок",
       },
     ],
   },
