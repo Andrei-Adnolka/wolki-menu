@@ -210,11 +210,6 @@ export const MENU = [
           en: "Nuggets (150 g)",
           zh: "鸡块 (150 克)",
         },
-        description: {
-          ru: "с соусом на выбор",
-          en: "with sauce of your choice",
-          zh: "配自选酱料",
-        },
         price: "12 ",
         photo: "Фото 4, левый средний блок, раздел ЗАКУСКИ",
       },
