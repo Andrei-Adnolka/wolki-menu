@@ -1,63 +1,17 @@
-import { useEffect, useState, useRef } from "react";
 import { DRINKS } from "../config";
-import { Modal } from "../modal";
 
 type Lang = "ru" | "en" | "zh";
 
 function Drinks({ lang }: { lang: Lang }) {
-  const [is18, setIs18] = useState(false);
-  const [isShowModal, setIsShowModal] = useState(false);
-  const barRef = useRef<HTMLDivElement>(null);
-  const hasConfirmedRef = useRef(false); // чтобы показать модалку только один раз
-
-  const hideModal = (arg: boolean) => {
-    hasConfirmedRef.current = true;
-    setIsShowModal(false);
-    setIs18(arg);
-  };
-
-  useEffect(() => {
-    if (!barRef.current) return;
-
-    const node = barRef.current; // сохраняем в локальную переменную
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!hasConfirmedRef.current) {
-            if (entry.isIntersecting) {
-              // Блок вошёл в viewport — показываем модалку
-              setIsShowModal(true);
-            } else {
-              // Блок вышел из viewport — прячем модалку
-              setIsShowModal(false);
-            }
-          }
-        });
-      },
-      {
-        root: null, // viewport
-        threshold: 0.1, // 10% блока должно быть видно
-      }
-    );
-
-    observer.observe(node);
-
-    return () => {
-      observer.unobserve(node);
-    };
-  }, [is18]);
-
   return (
     <>
-      <div
-        className={`menu-container ${is18 ? "" : "hide-menu"}`}
-        id="bar"
-        ref={barRef}
-      >
-        <header className="menu-header">
+      <div className={`menu-container`}>
+        <header className="menu-header flex-start">
           <div className="header-text">
-            <div className="vertical-menu-text">DRINKS</div>
+            <div
+              className="vertical-menu-text "
+              dangerouslySetInnerHTML={{ __html: `WARMING <br/>DRINKS` }}
+            />
           </div>
           <div className="logo">
             <img
@@ -99,14 +53,6 @@ function Drinks({ lang }: { lang: Lang }) {
           );
         })}
       </div>
-
-      {isShowModal && (
-        <Modal
-          lang={lang}
-          hideModal={hideModal}
-          setIsShowModal={setIsShowModal}
-        />
-      )}
     </>
   );
 }

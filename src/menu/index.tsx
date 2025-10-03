@@ -1,3 +1,4 @@
+// @ts-ignore
 import "./index.css";
 
 import { MENU } from "../config";
@@ -56,6 +57,7 @@ function Menu({ lang, setLang }: { lang: Lang; setLang: (arg: Lang) => void }) {
                   price,
                   //@ts-ignore
                   description,
+                  //@ts-ignore
                   isBottomDots,
                 } = link;
                 return (

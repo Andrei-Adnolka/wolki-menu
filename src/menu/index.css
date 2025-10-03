@@ -18,6 +18,9 @@
   border-top-right-radius: 16px;
   position: relative;
 }
+.flex-start {
+    align-items: flex-start;
+}
 
 @media (max-width: 768px){
   .menu-container {
@@ -74,6 +77,7 @@
   letter-spacing: 3px;
   border-left: 6px solid #000;
   margin-bottom: 5px;
+  line-height: 32px;
 }
 
 .menu-section {
