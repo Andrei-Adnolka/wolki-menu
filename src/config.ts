@@ -81,20 +81,6 @@ export const MENU = [
       },
       {
         label: {
-          ru: "Суп Свекольник (250 г)",
-          en: "Beetroot soup (250 g)",
-          zh: "甜菜汤 (250 克)",
-        },
-        description: {
-          ru: "на кефире с картофельными дольками",
-          en: "with kefir and potato wedges",
-          zh: "配酸奶和土豆块",
-        },
-        price: "11 ",
-        isBottomDots: true,
-      },
-      {
-        label: {
           ru: "Салат с колбаской (210 г)",
           en: "Salad with sausage (210 g)",
           zh: "香肠沙拉 (210 克)",
@@ -515,15 +501,6 @@ export const BAR = [
       },
       {
         label: {
-          ru: "Квас (500/330 мл)",
-          en: "Kvass (500/330 ml)",
-          zh: "克瓦斯 (500/330 毫升)",
-        },
-        price: "6/5",
-        photo: "Фото 1, левый верхний блок, раздел ПИВО, Разливное",
-      },
-      {
-        label: {
           ru: "Шоколадный стаут (450 мл)",
           en: "Chocolate Stout (450 ml)",
           zh: "巧克力世涛 (450 毫升)",
@@ -805,11 +782,11 @@ export const BAR = [
       },
       {
         label: {
-          ru: "Чай пакетированный (200 мл)",
-          en: "Tea bag (200 ml)",
-          zh: "袋泡茶 (200 毫升)",
+          ru: "Чай (в ассортименте) (550 мл)",
+          en: "Assorted Tea (550 ml)",
+          zh: "各种茶叶 (550 毫升)",
         },
-        price: "3",
+        price: "7",
         photo: "Фото 1, нижний правый блок, раздел КОФЕ/ЧАЙ",
       },
     ],
@@ -1045,66 +1022,6 @@ export const BAR = [
 
 export const DRINKS = [
   {
-    label: { ru: "ЛИМОНАДЫ", en: "LIMONADES", zh: "柠檬水" },
-    background: "black-bg",
-    links: [
-      {
-        label: {
-          ru: "Классический (1 литр)",
-          en: "Classic (1 liter)",
-          zh: "经典 (1升)",
-        },
-        price: "17",
-        photo: "Лимонад 1 литр",
-      },
-      {
-        label: {
-          ru: "Лимон/Огурец (250 мл)",
-          en: "Lemon/Cucumber (250 ml)",
-          zh: "柠檬/黄瓜 (250 毫升)",
-        },
-        price: "7",
-        photo: "Лимонад Милон/Огурец",
-      },
-      {
-        label: {
-          ru: "Малина/Мята (250 мл)",
-          en: "Raspberry/Mint (250 ml)",
-          zh: "覆盆子/薄荷 (250 毫升)",
-        },
-        price: "7",
-        photo: "Лимонад Малина/Мята",
-      },
-      {
-        label: {
-          ru: "Вишня/Соленая карамель (250 мл)",
-          en: "Cherry/Salted Caramel (250 ml)",
-          zh: "樱桃/咸焦糖 (250 毫升)",
-        },
-        price: "7",
-        photo: "Лимонад Вишня/Смородина",
-      },
-      {
-        label: {
-          ru: "Апельсиновый Шоколад (250 мл)",
-          en: "Orange Chocolate (250 ml)",
-          zh: "橙色巧克力 (250 毫升)",
-        },
-        price: "7",
-        photo: "Лимонад Апельсиновый Шоколад",
-      },
-      {
-        label: {
-          ru: "Холодный Фруктовый чай (230 мл)",
-          en: "Iced Fruit Tea (230 ml)",
-          zh: "冰水果茶 (230 毫升)",
-        },
-        price: "6",
-        photo: "Лимонад Фруктовый чай",
-      },
-    ],
-  },
-  {
     label: { ru: "Коктейли", en: "COCKTAILS", zh: "鸡尾酒" },
     background: "light-bg",
     links: [
@@ -1183,44 +1100,146 @@ export const DRINKS = [
     ],
   },
   {
+    label: { ru: "На основе алкоголя", en: "Based on Alcohol", zh: "基于酒精" },
+    background: "black-bg",
+    links: [
+      {
+        label: {
+          ru: "Глинтвейн Красный (250 мл)",
+          en: "Red Mulled Wine (250 ml)",
+          zh: "红热葡萄酒 (250 毫升)",
+        },
+        price: "9",
+        photo: "",
+      },
+      {
+        label: {
+          ru: "Глинтвейн Белый (250 мл)",
+          en: "White Mulled Wine (250 ml)",
+          zh: "白热葡萄酒 (250 毫升)",
+        },
+        price: "9",
+        photo: "",
+      },
+      {
+        label: {
+          ru: "Гжанец (300 мл)",
+          en: "Gzhanets (300 ml)",
+          zh: "格扎内茨 (300 毫升)",
+        },
+        price: "10",
+        photo: "",
+      },
+      {
+        label: {
+          ru: "Горячий Сидр (320 мл)",
+          en: "Hot Cider (320 ml)",
+          zh: "热苹果酒 (320 毫升)",
+        },
+        price: "10",
+        photo: "",
+      },
+      {
+        label: {
+          ru: "Тодди Бренди (120 мл)",
+          en: "Brandy Toddy (120 ml)",
+          zh: "白兰地托迪 (120 毫升)",
+        },
+        price: "10",
+        photo: "",
+      },
+    ],
+  },
+  {
+    label: { ru: "На основе чая", en: "Based on Tea", zh: "基于茶" },
+    background: "black-bg",
+    links: [
+      {
+        label: {
+          ru: "Имбирный чай (600 мл)",
+          en: "Ginger Tea (600 ml)",
+          zh: "姜茶 (600 毫升)",
+        },
+        price: "11",
+        photo: "",
+      },
+      {
+        label: {
+          ru: "Облепиховый чай (600 мл)",
+          en: "Sea Buckthorn Tea (600 ml)",
+          zh: "海棠茶 (600 毫升)",
+        },
+        price: "11",
+        photo: "",
+      },
+      {
+        label: {
+          ru: "Ромашковый чай с клюквой и бузиной (600 мл)",
+          en: "Chamomile Tea with Cranberry and Elderberry (600 ml)",
+          zh: "菊花茶配蔓越莓和接骨木 (600 毫升)",
+        },
+        price: "9",
+        photo: "",
+      },
+    ],
+  },
+  {
     label: { ru: "На основе кофе", en: "COFFEE-BASED", zh: "基于咖啡" },
     background: "black-bg",
     links: [
       {
         label: {
-          ru: "Бамбл (250 мл)",
-          en: "Bumble (250 ml)",
-          zh: "大黄蜂 (250 毫升)",
-        },
-        price: "8",
-        photo: "Кофе Бамбл",
-      },
-      {
-        label: {
-          ru: "Эспрессо Тонник (250 мл)",
-          en: "Espresso Tonic (250 ml)",
-          zh: "espresso汤力 (250 毫升)",
-        },
-        price: "8",
-        photo: "Кофе Эспрессо",
-      },
-      {
-        label: {
-          ru: "Айс Латте (250 мл)",
-          en: "Iced Latte (250 ml)",
-          zh: "冰拿铁 (250 毫升)",
+          ru: "Раф (250 мл)",
+          en: "Raf (250 ml)",
+          zh: "拉夫 (250 毫升)",
         },
         price: "7",
-        photo: "Кофе Айс Латте",
+        photo: "",
       },
       {
         label: {
-          ru: "Айс Раффаэло (120 мл)",
-          en: "Iced Raffaello (120 ml)",
-          zh: "冰拉法埃洛 (120 毫升)",
+          ru: "Волки Раф (250 мл)",
+          en: "Wolves Raf (250 ml)",
+          zh: "狼族拉夫 (250 毫升)",
         },
         price: "7",
-        photo: "Кофе Айс Раффаэло",
+        photo: "",
+      },
+      {
+        label: {
+          ru: "Горячий цитрус (275 мл)",
+          en: "Hot Citrus (275 ml)",
+          zh: "热柑橘饮 (275 毫升)",
+        },
+        price: "5",
+        photo: "",
+      },
+      {
+        label: {
+          ru: "Горячая карамель (200 мл)",
+          en: "Hot Caramel (200 ml)",
+          zh: "热焦糖 (200 毫升)",
+        },
+        price: "5",
+        photo: "",
+      },
+      {
+        label: {
+          ru: "Горячий шоколад с маршмелоу (100 мл)",
+          en: "Hot Chocolate with Marshmallows (100 ml)",
+          zh: "热巧克力配棉花糖 (100 毫升)",
+        },
+        price: "10",
+        photo: "",
+      },
+      {
+        label: {
+          ru: "Какао с маршмелоу (250 мл)",
+          en: "Cocoa with Marshmallows (250 ml)",
+          zh: "可可配棉花糖 (250 毫升)",
+        },
+        price: "8",
+        photo: "",
       },
     ],
   },
@@ -1357,6 +1376,48 @@ export const DRINKS = [
         },
         price: "9",
         photo: "Замес Водка/Сок",
+      },
+    ],
+  },
+  {
+    label: { ru: "ЛИМОНАДЫ", en: "LIMONADES", zh: "柠檬水" },
+    background: "black-bg",
+    links: [
+      {
+        label: {
+          ru: "Лимон/Огурец (250 мл)",
+          en: "Lemon/Cucumber (250 ml)",
+          zh: "柠檬/黄瓜 (250 毫升)",
+        },
+        price: "7",
+        photo: "Лимонад Милон/Огурец",
+      },
+      {
+        label: {
+          ru: "Малина/Мята (250 мл)",
+          en: "Raspberry/Mint (250 ml)",
+          zh: "覆盆子/薄荷 (250 毫升)",
+        },
+        price: "7",
+        photo: "Лимонад Малина/Мята",
+      },
+      {
+        label: {
+          ru: "Вишня/Соленая карамель (250 мл)",
+          en: "Cherry/Salted Caramel (250 ml)",
+          zh: "樱桃/咸焦糖 (250 毫升)",
+        },
+        price: "7",
+        photo: "Лимонад Вишня/Смородина",
+      },
+      {
+        label: {
+          ru: "Апельсиновый Шоколад (250 мл)",
+          en: "Orange Chocolate (250 ml)",
+          zh: "橙色巧克力 (250 毫升)",
+        },
+        price: "7",
+        photo: "Лимонад Апельсиновый Шоколад",
       },
     ],
   },
