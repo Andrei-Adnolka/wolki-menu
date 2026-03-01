@@ -151,7 +151,7 @@ export const MENU = [
           en: "Panko shrimp (250 g)",
           zh: "日式面包屑炸虾 (250 克)",
         },
-        price: "26 ",
+        price: "28 ",
         photo: "Фото 2, левый нижний блок, раздел ЗАКУСКИ",
       },
       {
@@ -161,6 +161,15 @@ export const MENU = [
           zh: "蒜香面包块 (210 克)",
         },
         price: "10 ",
+        photo: "Фото 2, левый нижний блок, раздел ЗАКУСКИ",
+      },
+      {
+        label: {
+          ru: "Гренки чесночные в сырном соусе (210 г)",
+          en: "Garlic croutons in cheese sauce (210 g)",
+          zh: "蒜香麵包丁佐起司醬 (210 克)",
+        },
+        price: "13 ",
         photo: "Фото 2, левый нижний блок, раздел ЗАКУСКИ",
       },
       {
@@ -178,7 +187,7 @@ export const MENU = [
           en: "French fries (150 g)",
           zh: "炸薯条 (150 克)",
         },
-        price: "5,50 ",
+        price: "7 ",
         photo: "Фото 2, левый нижний блок, раздел ЗАКУСКИ",
       },
       {
@@ -187,7 +196,16 @@ export const MENU = [
           en: "Country-style potatoes (150 g)",
           zh: "乡村土豆 (150 克)",
         },
-        price: "5,50 ",
+        price: "7 ",
+        photo: "Фото 2, левый нижний блок, раздел ЗАКУСКИ",
+      },
+      {
+        label: {
+          ru: "Картофельные шарики (150 г)",
+          en: "Potato balls (150 g)",
+          zh: "馬鈴薯球 (150 克)",
+        },
+        price: "7 ",
         photo: "Фото 2, левый нижний блок, раздел ЗАКУСКИ",
       },
       {
@@ -196,7 +214,7 @@ export const MENU = [
           en: "Nuggets (150 g)",
           zh: "鸡块 (150 克)",
         },
-        price: "12 ",
+        price: "13 ",
         photo: "Фото 4, левый средний блок, раздел ЗАКУСКИ",
       },
       {
@@ -234,7 +252,7 @@ export const MENU = [
           en: "Wings in Teriyaki Sauce (250 g)",
           zh: "照烧酱鸡翅 (250 克)",
         },
-        price: "15 ",
+        price: "17 ",
         photo: "Фото 2, правый верхний блок, раздел ГРИЛЬ",
       },
       {
@@ -243,7 +261,16 @@ export const MENU = [
           en: "Wings in Honey Mustard Sauce (250 g)",
           zh: "蜂蜜芥末酱鸡翅 (250 克)",
         },
-        price: "15 ",
+        price: "17 ",
+        photo: "Фото 2, правый верхний блок, раздел ГРИЛЬ",
+      },
+      {
+        label: {
+          ru: "Крылья BBQ (250 г)",
+          en: "BBQ wings (250 g)",
+          zh: "燒烤翅 (250 克)",
+        },
+        price: "17 ",
         photo: "Фото 2, правый верхний блок, раздел ГРИЛЬ",
       },
       {
@@ -252,7 +279,7 @@ export const MENU = [
           en: "Spicy Wings (250 g)",
           zh: "辣味鸡翅 (250 克)",
         },
-        price: "16 ",
+        price: "17 ",
         photo: "Фото 2, правый верхний блок, раздел ГРИЛЬ",
       },
       {
@@ -262,11 +289,11 @@ export const MENU = [
           zh: "大腿肉",
         },
         description: {
-          ru: "в соусе Карри (250 г)",
-          en: "in Curry sauce (250 g)",
-          zh: "配咖喱酱 (250 克)",
+          ru: "в соусе Карри с картофельными шариками и соусом тар-тар (250 г)",
+          en: "in curry sauce with potato balls and tartar sauce (250 g)",
+          zh: "咖哩醬馬鈴薯球配塔塔醬 (250 克)",
         },
-        price: "17",
+        price: "26",
         photo: "Фото 2, правый верхний блок, раздел ГРИЛЬ",
       },
       {
@@ -280,7 +307,7 @@ export const MENU = [
           en: "with fries and mustard sauce (350 g)",
           zh: "配薯条和芥末酱 (350 克)",
         },
-        price: "25",
+        price: "19",
         photo: "Фото 2, правый верхний блок, раздел ГРИЛЬ",
       },
       {
@@ -332,7 +359,7 @@ export const MENU = [
           en: "Cheeseburger (370 g)",
           zh: "芝士汉堡 (370 克)",
         },
-        price: "17 ",
+        price: "19 ",
         photo: "Фото 2, правый нижний блок, раздел БУРГЕРЫ",
       },
       {
@@ -341,7 +368,7 @@ export const MENU = [
           en: "Double Cheeseburger (510 g)",
           zh: "双层芝士汉堡 (510 克)",
         },
-        price: "25 ",
+        price: "26 ",
         photo: "Фото 2, правый нижний блок, раздел БУРГЕРЫ",
       },
       {
@@ -350,7 +377,7 @@ export const MENU = [
           en: "Chicken Burger with Pineapple (360 g)",
           zh: "菠萝鸡肉汉堡 (360 克)",
         },
-        price: "16 ",
+        price: "18 ",
         photo: "Фото 2, правый нижний блок, раздел БУРГЕРЫ",
       },
       {
@@ -359,7 +386,7 @@ export const MENU = [
           en: "Burger with Pulled Pork and Cherry (325 g)",
           zh: "手撕猪肉樱桃汉堡 (325 克)",
         },
-        price: "17 ",
+        price: "19 ",
         photo: "Фото 2, правый нижний блок, раздел БУРГЕРЫ",
       },
       {
@@ -378,21 +405,21 @@ export const MENU = [
     links: [
       {
         label: {
-          ru: "Торт дня (130 г)",
-          en: "Cake of the Day (130 g)",
-          zh: "今日蛋糕 (130 克)",
+          ru: "Брауни (130 г)",
+          en: "Brownie (130 g)",
+          zh: "布朗尼 (130 克)",
         },
-        price: "11 ",
+        price: "16 ",
         photo: "Фото 2, правый нижний блок, раздел ДЕСЕРТЫ",
         isBottomDots: true,
       },
       {
         label: {
-          ru: "Мороженое (50 г)",
-          en: "Ice Cream (50 g)",
-          zh: "冰淇淋 (50 克)",
+          ru: "Чизкейк (110 г)",
+          en: "Сheesecake (110 g)",
+          zh: "起司蛋糕 (110 克)",
         },
-        price: "4 ",
+        price: "11 ",
         photo: "Фото 2, правый нижний блок, раздел ДЕСЕРТЫ",
       },
     ],
@@ -437,7 +464,7 @@ export const BAR = [
           en: "Staropramen (500/330 ml)",
           zh: "斯塔罗普拉门 (500/330 毫升)",
         },
-        price: "8/7",
+        price: "8/6",
         photo: "Фото 1, левый верхний блок, раздел ПИВО, Разливное",
       },
       {
@@ -446,7 +473,7 @@ export const BAR = [
           en: "Krusovice Light (500/330 ml)",
           zh: "克鲁索维采淡啤 (500/330 毫升)",
         },
-        price: "8/7",
+        price: "8/6",
         photo: "Фото 1, левый верхний блок, раздел ПИВО, Разливное",
       },
       {
@@ -483,15 +510,6 @@ export const BAR = [
       },
       {
         label: {
-          ru: "Неправильный Мед (400 мл)",
-          en: "Nepravilny Med (400 ml)",
-          zh: "错误蜂蜜 (400 毫升)",
-        },
-        price: "10",
-        photo: "Фото 1, левый верхний блок, раздел ПИВО, Разливное",
-      },
-      {
-        label: {
           ru: "Сидорова Коза (сидр) (400 мл)",
           en: "Sidorova Koza (cider) (400 ml)",
           zh: "西多罗娃山羊 (苹果酒) (400 毫升)",
@@ -505,7 +523,7 @@ export const BAR = [
           en: "Chocolate Stout (450 ml)",
           zh: "巧克力世涛 (450 毫升)",
         },
-        price: "10",
+        price: "11",
         photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
       },
       {
@@ -514,12 +532,18 @@ export const BAR = [
         photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
       },
       {
-        label: {
-          ru: "Hardy (в ассортименте) (450 мл)",
-          en: "Hardy (assorted) (450 ml)",
-          zh: "哈迪 (多种) (450 毫升)",
-        },
-        price: "9",
+        label: { ru: "Фермерский Эль (450 мл)", en: "Farmhouse Ale (450 ml)", zh: "農舍艾爾啤酒 (450 毫升)" },
+        price: "10",
+        photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
+      },
+      {
+        label: { ru: "Вишневый Эль (450 мл)", en: "Cherry Ale (450 ml)", zh: "櫻桃艾爾啤酒 (450 毫升)" },
+        price: "15",
+        photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
+      },
+      {
+        label: { ru: "Pils (450 мл)", en: "Pils (450 ml)", zh: "皮爾斯 (450 毫升)" },
+        price: "12",
         photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
       },
       {
@@ -533,11 +557,11 @@ export const BAR = [
       },
       {
         label: {
-          ru: "Жигули Барное безалкогольное (450 мл)",
-          en: "Zhiguli Bar Non-Alcoholic (450 ml)",
-          zh: "日古利无酒精啤酒 (450 毫升)",
+          ru: "Крушовица б/а (330 мл)",
+          en: "Krusovica non-alcoholic (330 ml)",
+          zh: "Krusovica 無酒精飲料 (330 毫升)",
         },
-        price: "6",
+        price: "7",
         photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
       },
       {
@@ -546,7 +570,7 @@ export const BAR = [
           en: "Limited Series from Volk Brewery (450 ml)",
           zh: "沃尔克啤酒厂限量系列 (450 毫升)",
         },
-        price: "15",
+        price: "18",
         photo: "Фото 1, правый верхний блок, раздел ПИВО, Лимитированная серия",
       },
     ],
@@ -557,20 +581,20 @@ export const BAR = [
     links: [
       {
         label: {
-          ru: "Olmeca Gold (40 мл)",
-          en: "Olmeca Gold (40 ml)",
-          zh: "奥尔梅卡金 (40 毫升)",
+          ru: "Rooster Rojo Blanco (40 мл)",
+          en: "Rooster Rojo Blanco (40 ml)",
+          zh: "紅白公雞 (40 毫升)",
         },
-        price: "12",
+        price: "15",
         photo: "Фото 1, правый блок, раздел ТЕКИЛА",
       },
       {
         label: {
-          ru: "Olmeca Silver (40 мл)",
-          en: "Olmeca Silver (40 ml)",
-          zh: "奥尔梅卡银 (40 毫升)",
+          ru: "Rooster Rojo Reposado (40 мл)",
+          en: "Rooster Rojo Reposado (40 ml)",
+          zh: "Rooster Rojo Reposado (40 毫升)",
         },
-        price: "12",
+        price: "15",
         photo: "Фото 1, правый блок, раздел ТЕКИЛА",
       },
     ],
@@ -708,7 +732,7 @@ export const BAR = [
           en: "Kava Brut (750 ml)",
           zh: "卡瓦布鲁特 (750 毫升)",
         },
-        price: "71",
+        price: "73",
         photo: "Фото 1, правый блок, раздел ВИНО/ПОРТВЕЙН, Игристое",
       },
     ],
@@ -719,9 +743,9 @@ export const BAR = [
     links: [
       {
         label: {
-          ru: "Эспрессо/Американо (30/150 мл)",
-          en: "Espresso/Americano (30/150 ml)",
-          zh: "浓缩咖啡/美式咖啡 (30/150 毫升)",
+          ru: "Эспрессо/Американо (30/170 мл)",
+          en: "Espresso/Americano (30/170 ml)",
+          zh: "浓缩咖啡/美式咖啡 (30/170 毫升)",
         },
         price: "5",
         photo: "Фото 1, нижний правый блок, раздел КОФЕ/ЧАЙ",
@@ -746,6 +770,15 @@ export const BAR = [
       },
       {
         label: {
+          ru: "Раф (250 мл)",
+          en: "Raf (250 ml)",
+          zh: "帕夫 (250 毫升)",
+        },
+        price: "7",
+        photo: "Фото 1, нижний правый блок, раздел КОФЕ/ЧАЙ",
+      },
+      {
+        label: {
           ru: "Имбирный чай (500 мл)",
           en: "Ginger tea (500 ml)",
           zh: "姜茶 (500 毫升)",
@@ -764,6 +797,24 @@ export const BAR = [
       },
       {
         label: {
+          ru: "Ромашковый чай с клюквой и бузиной (500 мл)",
+          en: "Chamomile tea with cranberry and elderberry (500 ml)",
+          zh: "洋甘菊茶佐蔓越莓和接骨木果 (500 毫升)",
+        },
+        price: "9",
+        photo: "Фото 1, нижний правый блок, раздел КОФЕ/ЧАЙ",
+      },
+      {
+        label: {
+          ru: "Чай (в ассортименте) (500 мл)",
+          en: "Assorted Tea (500 ml)",
+          zh: "各种茶叶 (500 毫升)",
+        },
+        price: "7",
+        photo: "Фото 1, нижний правый блок, раздел КОФЕ/ЧАЙ",
+      },
+      {
+        label: {
           ru: "Какао с маршмеллоу (210 мл)",
           en: "Cocoa with marshmallow (210 ml)",
           zh: "热可可配棉花糖 (210 毫升)",
@@ -773,20 +824,29 @@ export const BAR = [
       },
       {
         label: {
-          ru: "Горячий шоколад (120 мл)",
-          en: "Hot chocolate (120 ml)",
-          zh: "热巧克力 (120 毫升)",
+          ru: "Горячий шоколад с маршмелоу (120 мл)",
+          en: "Hot Chocolate with Marshmallows (120 ml)",
+          zh: "热巧克力配棉花糖 (120 毫升)",
         },
         price: "11",
-        photo: "Фото 1, нижний правый блок, раздел КОФЕ/ЧАЙ",
+        photo: "",
       },
       {
         label: {
-          ru: "Чай (в ассортименте) (550 мл)",
-          en: "Assorted Tea (550 ml)",
-          zh: "各种茶叶 (550 毫升)",
+          ru: "Горячая карамель (200 мл)",
+          en: "Hot caramel (200 ml)",
+          zh: "熱焦糖 (200 毫升)",
         },
-        price: "7",
+        price: "5",
+        photo: "Фото 1, нижний правый блок, раздел КОФЕ/ЧАЙ",
+      },
+          {
+        label: {
+          ru: "Горячий цитрус (120 мл)",
+          en: "Hot citrus (120 ml)",
+          zh: "熱柑橘 (120 毫升)",
+        },
+        price: "5",
         photo: "Фото 1, нижний правый блок, раздел КОФЕ/ЧАЙ",
       },
     ],
@@ -801,7 +861,7 @@ export const BAR = [
           en: "Coca-Cola (330 ml)",
           zh: "可口可乐 (330 毫升)",
         },
-        price: "4",
+        price: "5",
         photo: "Фото 1, левый нижний блок, раздел НАПИТКИ",
       },
       {
@@ -810,7 +870,7 @@ export const BAR = [
           en: "Fanta/Sprite (330 ml)",
           zh: "芬达/雪碧 (330 毫升)",
         },
-        price: "4",
+        price: "5",
         photo: "Фото 1, левый нижний блок, раздел НАПИТКИ",
       },
       {
@@ -819,7 +879,7 @@ export const BAR = [
           en: "Bonaqua (sparkling/still) (500 ml)",
           zh: "宝矿力水特 (气泡/无气) (500 毫升)",
         },
-        price: "3",
+        price: "4",
         photo: "Фото 1, левый нижний блок, раздел НАПИТКИ",
       },
       {
@@ -853,6 +913,15 @@ export const BAR = [
           zh: "Mad Dog 纯净 (50 毫升)",
         },
         price: "5",
+        photo: "Фото 1, левый блок, раздел ВОДКА",
+      },
+      {
+        label: {
+          ru: "Finlandia (50 мл)",
+          en: "Finlandia (50 ml)",
+          zh: "Finlandia (50 毫升)",
+        },
+        price: "1",
         photo: "Фото 1, левый блок, раздел ВОДКА",
       },
     ],
@@ -904,6 +973,15 @@ export const BAR = [
           zh: "杰克丹尼老7 (40 毫升)",
         },
         price: "15",
+        photo: "Фото 1, левый блок, раздел ВИСКИ",
+      },
+      {
+        label: {
+          ru: "Bell's (40 мл)",
+          en: "Bell's (40 ml)",
+          zh: "Bell's (40 毫升)",
+        },
+        price: "10",
         photo: "Фото 1, левый блок, раздел ВИСКИ",
       },
     ],
@@ -1004,9 +1082,9 @@ export const BAR = [
     links: [
       {
         label: {
-          ru: "Настойки WOLKI GRILL (40 мл)",
-          en: "WOLKI GRILL Infusions (40 ml)",
-          zh: "WOLKI GRILL 浸泡酒 (40 毫升)",
+          ru: "Настойки WOLKI GRILL (50 мл)",
+          en: "WOLKI GRILL Infusions (50 ml)",
+          zh: "WOLKI GRILL 浸泡酒 (50 毫升)",
         },
         description: {
           ru: "спроси у официанта",
@@ -1014,6 +1092,15 @@ export const BAR = [
           zh: "请询问服务员",
         },
         price: "5",
+        photo: "Фото 1, левый блок, раздел НАСТОЙКИ",
+      },
+      {
+        label: {
+          ru: "Сет Настойки WOLKI GRILL (5*50 мл)",
+          en: "Set Tinctures WOLKI GRILL (5*50 ml)",
+          zh: "沃爾基燒烤酊劑套裝 (5*50 毫升)",
+        },
+        price: "21",
         photo: "Фото 1, левый блок, раздел НАСТОЙКИ",
       },
     ],
@@ -1040,7 +1127,7 @@ export const DRINKS = [
           en: "Aperol Spritz (290 ml)",
           zh: "阿佩罗斯普利兹 (290 毫升)",
         },
-        price: "19",
+        price: "20",
         photo: "Коктейль Апероль Шприц",
       },
       {
@@ -1049,7 +1136,7 @@ export const DRINKS = [
           en: "Bellini (170 ml)",
           zh: "贝里尼 (170 毫升)",
         },
-        price: "16",
+        price: "17",
         photo: "Коктейль Bellini",
       },
       {
@@ -1058,7 +1145,7 @@ export const DRINKS = [
           en: "Cuba Libre (190 ml)",
           zh: "古巴自由 (190 毫升)",
         },
-        price: "16",
+        price: "17",
         photo: "Коктейль Куба Либре",
       },
       {
@@ -1067,7 +1154,7 @@ export const DRINKS = [
           en: "Paloma (190 ml)",
           zh: "帕洛玛 (190 毫升)",
         },
-        price: "16",
+        price: "17",
         photo: "Коктейль Палома",
       },
       {
@@ -1076,7 +1163,7 @@ export const DRINKS = [
           en: "Rosso Tonic (200 ml)",
           zh: "洛索汤力 (200 毫升)",
         },
-        price: "16",
+        price: "17",
         photo: "Коктейль Россо Тоник",
       },
       {
@@ -1085,7 +1172,7 @@ export const DRINKS = [
           en: "Cherry Martini (200 ml)",
           zh: "樱桃马天尼 (200 毫升)",
         },
-        price: "16",
+        price: "17",
         photo: "Коктейль Черри Мартини",
       },
       {
@@ -1094,8 +1181,26 @@ export const DRINKS = [
           en: "Whisky & Pineapple Juice (125 ml)",
           zh: "威士忌菠萝汁 (125 毫升)",
         },
-        price: "15",
+        price: "17",
         photo: "Коктейль Pineapple Juice",
+      },
+      {
+        label: {
+          ru: "Негрони (100 мл)",
+          en: "Negroni (100 ml)",
+          zh: "內格羅尼 (100 毫升)",
+        },
+        price: "17",
+        photo: "",
+      },
+      {
+        label: {
+          ru: "Дайкири (100 мл)",
+          en: "Daiquri (100 ml)",
+          zh: "黛綺莉 (100 毫升)",
+        },
+        price: "17",
+        photo: "",
       },
     ],
   },
@@ -1141,9 +1246,9 @@ export const DRINKS = [
       },
       {
         label: {
-          ru: "Тодди Бренди (120 мл)",
-          en: "Brandy Toddy (120 ml)",
-          zh: "白兰地托迪 (120 毫升)",
+          ru: "Тодди Бренди (210 мл)",
+          en: "Brandy Toddy (210 ml)",
+          zh: "白兰地托迪 (210 毫升)",
         },
         price: "10",
         photo: "",
@@ -1179,66 +1284,6 @@ export const DRINKS = [
           zh: "菊花茶配蔓越莓和接骨木 (600 毫升)",
         },
         price: "9",
-        photo: "",
-      },
-    ],
-  },
-  {
-    label: { ru: "На основе кофе", en: "COFFEE-BASED", zh: "基于咖啡" },
-    background: "black-bg",
-    links: [
-      {
-        label: {
-          ru: "Раф (250 мл)",
-          en: "Raf (250 ml)",
-          zh: "拉夫 (250 毫升)",
-        },
-        price: "7",
-        photo: "",
-      },
-      {
-        label: {
-          ru: "Волки Раф (250 мл)",
-          en: "Wolves Raf (250 ml)",
-          zh: "狼族拉夫 (250 毫升)",
-        },
-        price: "7",
-        photo: "",
-      },
-      {
-        label: {
-          ru: "Горячий цитрус (275 мл)",
-          en: "Hot Citrus (275 ml)",
-          zh: "热柑橘饮 (275 毫升)",
-        },
-        price: "5",
-        photo: "",
-      },
-      {
-        label: {
-          ru: "Горячая карамель (200 мл)",
-          en: "Hot Caramel (200 ml)",
-          zh: "热焦糖 (200 毫升)",
-        },
-        price: "5",
-        photo: "",
-      },
-      {
-        label: {
-          ru: "Горячий шоколад с маршмелоу (100 мл)",
-          en: "Hot Chocolate with Marshmallows (100 ml)",
-          zh: "热巧克力配棉花糖 (100 毫升)",
-        },
-        price: "10",
-        photo: "",
-      },
-      {
-        label: {
-          ru: "Какао с маршмелоу (250 мл)",
-          en: "Cocoa with Marshmallows (250 ml)",
-          zh: "可可配棉花糖 (250 毫升)",
-        },
-        price: "8",
         photo: "",
       },
     ],
@@ -1313,46 +1358,46 @@ export const DRINKS = [
       },
     ],
   },
-  {
-    label: { ru: "ЛИМОНАДЫ", en: "LIMONADES", zh: "柠檬水" },
-    background: "black-bg",
-    links: [
-      {
-        label: {
-          ru: "Лимон/Огурец (250 мл)",
-          en: "Lemon/Cucumber (250 ml)",
-          zh: "柠檬/黄瓜 (250 毫升)",
-        },
-        price: "7",
-        photo: "Лимонад Милон/Огурец",
-      },
-      {
-        label: {
-          ru: "Малина/Мята (250 мл)",
-          en: "Raspberry/Mint (250 ml)",
-          zh: "覆盆子/薄荷 (250 毫升)",
-        },
-        price: "7",
-        photo: "Лимонад Малина/Мята",
-      },
-      {
-        label: {
-          ru: "Вишня/Соленая карамель (250 мл)",
-          en: "Cherry/Salted Caramel (250 ml)",
-          zh: "樱桃/咸焦糖 (250 毫升)",
-        },
-        price: "7",
-        photo: "Лимонад Вишня/Смородина",
-      },
-      {
-        label: {
-          ru: "Апельсиновый Шоколад (250 мл)",
-          en: "Orange Chocolate (250 ml)",
-          zh: "橙色巧克力 (250 毫升)",
-        },
-        price: "7",
-        photo: "Лимонад Апельсиновый Шоколад",
-      },
-    ],
-  },
+  // {
+  //   label: { ru: "ЛИМОНАДЫ", en: "LIMONADES", zh: "柠檬水" },
+  //   background: "black-bg",
+  //   links: [
+  //     {
+  //       label: {
+  //         ru: "Лимон/Огурец (250 мл)",
+  //         en: "Lemon/Cucumber (250 ml)",
+  //         zh: "柠檬/黄瓜 (250 毫升)",
+  //       },
+  //       price: "7",
+  //       photo: "Лимонад Милон/Огурец",
+  //     },
+  //     {
+  //       label: {
+  //         ru: "Малина/Мята (250 мл)",
+  //         en: "Raspberry/Mint (250 ml)",
+  //         zh: "覆盆子/薄荷 (250 毫升)",
+  //       },
+  //       price: "7",
+  //       photo: "Лимонад Малина/Мята",
+  //     },
+  //     {
+  //       label: {
+  //         ru: "Вишня/Соленая карамель (250 мл)",
+  //         en: "Cherry/Salted Caramel (250 ml)",
+  //         zh: "樱桃/咸焦糖 (250 毫升)",
+  //       },
+  //       price: "7",
+  //       photo: "Лимонад Вишня/Смородина",
+  //     },
+  //     {
+  //       label: {
+  //         ru: "Апельсиновый Шоколад (250 мл)",
+  //         en: "Orange Chocolate (250 ml)",
+  //         zh: "橙色巧克力 (250 毫升)",
+  //       },
+  //       price: "7",
+  //       photo: "Лимонад Апельсиновый Шоколад",
+  //     },
+  //   ],
+  // },
 ];
