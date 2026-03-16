@@ -32,17 +32,8 @@ function Menu({ lang, setLang }: { lang: Lang; setLang: (arg: Lang) => void }) {
             );
           })}
         </div>
-        <div className="header-text">
-          <div className="vertical-menu-text">MENU</div>
-        </div>
-        <div className="logo">
-          <img
-            src="./wolki-logo.png"
-            alt="menu"
-            loading="lazy"
-            className="logo"
-            width={200}
-          />
+        <div className="horizontal-menu-text" style={{ marginTop: "60px" }}>
+          MENU
         </div>
       </header>
       {MENU.map((el, i) => {

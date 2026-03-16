@@ -1,33 +1,38 @@
 .menu-container {
   max-width: 600px;
   margin: 20px auto;
-  background-color: #f7f3e8;
-  box-shadow: 0 0 10px #ddd;
+  background-color: #000;
+  /* Черный фон */
+  box-shadow: 0 0 10px #333;
   position: relative;
   border-radius: 16px;
+  color: #fff;
+  /* Белый текст по умолчанию */
 }
-
 
 .menu-header {
   display: flex;
-  background-color: #f0d8b3;
-  padding: 10px 15px;
+  justify-content: center;
+  background-color: #000;
+  /* Черный фон */
   margin-bottom: 15px;
   align-items: center;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   position: relative;
 }
+
 .flex-start {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .menu-container {
     margin: 0 auto;
     border-radius: 0;
     box-shadow: none;
   }
+
   .menu-header {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -36,26 +41,27 @@
 
 .langs {
   display: flex;
-  gap: 12px;
+  gap: 16px;
   position: absolute;
-  right: 15px;
-  top: 8px;
+  right: 24px;
+  top: 12px;
   font-size: 18px;
   font-weight: 700;
-  color: #000;
-}
-.langs span {
-  cursor: pointer;
-  transition: color .2s ease;
-}
-.langs span.active {
-  color: #d46c3c;
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  color: #fff;
+  /* Белый текст */
 }
 
+.langs span {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.langs span.active,
 .langs span:hover {
   color: #d46c3c;
+  /* Оранжевый акцент */
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .logo {
@@ -66,7 +72,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #000;
+  color: #fff;
+  /* Белый текст */
 }
 
 .vertical-menu-text {
@@ -75,49 +82,55 @@
   font-weight: 700;
   font-size: 34px;
   letter-spacing: 3px;
-  border-left: 6px solid #000;
+  border-left: 6px solid #d46c3c;
+  /* Оранжевая линия */
   margin-bottom: 5px;
   line-height: 32px;
+  color: #fff;
+  /* Белый текст */
 }
 
 .menu-section {
   margin-bottom: 25px;
-  padding: 0px 15px;
-  background-color: #f7f3e8;
+  padding: 0 24px;
+  background-color: #000;
+  /* Черный фон */
   position: relative;
+  color: #fff;
+  /* Белый текст */
 }
 
 .menu-section.without-bg {
-  background-color: #f9b971;
-  border: none;
-  margin: 0 15px 25px;
-
+  background-color: #000;
+  /* Оставляем черный */
 }
+
 .menu-section.without-bg ul {
   border: 0;
-  padding: 16px 0px;
+  padding: 0px;
+  padding-top: 16px;
 }
+
 .menu-section.black-bg {
   border-color: #000;
 }
 
-.menu-section.without-bg b {
-  color: #000;
+.menu-section.without-bg b,
+.menu-section.orange-bg b {
+  color: #fff;
+  /* Белый текст, не черный */
 }
 
-.menu-section.orange-bg b {
-  color: #000;
-}
 .menu-section.orange-bg .price {
   color: #d46c3c;
+  /* Оранжевая цена */
 }
 
 .section-title {
   font-weight: 700;
   font-size: 26px;
-  text-align: center;
-  background-color: #d46c3c;
   color: #fff;
+  border-bottom: 2px solid #d46c3c;
   padding: 8px 0;
   margin: 0;
   text-transform: uppercase;
@@ -125,13 +138,13 @@
 
 .section-title.without-bg {
   color: #d46c3c;
-  background-color: #f9b971;
-  border-bottom: 5px dotted #000;
-  margin-right: 40px;
+  background-color: #000;
+  border-bottom: 5px dotted #d46c3c;
   font-size: 28px;
   text-align: left;
   padding: 16px 0px 5px;
 }
+
 .section-title.black-bg {
   background-color: #000;
   color: #fff;
@@ -140,37 +153,41 @@
 .menu-list {
   list-style: none;
   margin: 0;
-  padding: 16px;
-  border: 2px solid #000;
-  border-top: 0;
+  padding: 0px;
+  color: #fff;
+  padding-top: 24px;
 }
 
 .menu-list li {
   margin-bottom: 8px;
   font-weight: 400;
-  color: #000;
   position: relative;
+  color: #fff;
+  /* Белый текст */
 }
 
 .menu-list li b {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #d46c3c;
   display: block;
   width: 85%;
 }
+
 .menu-list li span {
   display: block;
   font-size: 12px;
   font-style: normal;
   margin-top: -2px;
+  color: #ccc;
+  /* Светло-серый для описания */
 }
 
 .menu-list li small {
   font-size: 14px;
   font-style: normal;
-  color: #333;
+  color: #aaa;
+  /* Светло-серый для дополнительной информации */
   display: block;
   font-weight: 400;
   text-transform: none;
@@ -179,7 +196,8 @@
 .price[class] {
   font-size: 18px;
   font-weight: 700;
-  color: #000;
+  color: #d46c3c;
+  /* Оранжевая цена */
   position: absolute;
   right: 0;
   top: 0;
@@ -192,5 +210,18 @@
 .dotted {
   border: none;
   border-bottom: 6px dotted #d46c3c;
-  margin: 10px 0 10px 0;
+  margin: 10px 0;
+}
+
+.menu-section:last-of-type {
+  padding-bottom: 40px;
+}
+
+.horizontal-menu-text {
+  border: 2px solid #d46c3c;
+  color: #d46c3c;
+  padding: 8px 50px;
+  font-weight: 700;
+  font-size: 34px;
+  letter-spacing: 3px;
 }

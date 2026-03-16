@@ -5,25 +5,7 @@ type Lang = "ru" | "en" | "zh";
 function Drinks({ lang }: { lang: Lang }) {
   return (
     <>
-      <div className={`menu-container`}>
-        <header className="menu-header flex-start">
-          <div className="header-text">
-            <div
-              className="vertical-menu-text "
-              dangerouslySetInnerHTML={{ __html: `WARMING <br/>DRINKS` }}
-            />
-          </div>
-          <div className="logo">
-            <img
-              src="./wolki-logo.png"
-              alt="menu"
-              loading="lazy"
-              className="logo"
-              width={160}
-            />
-          </div>
-        </header>
-
+      <div className={`menu-container`} style={{ paddingTop: "24px" }}>
         {DRINKS.map((el) => {
           const { label, links, background } = el;
           return (

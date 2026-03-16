@@ -411,7 +411,6 @@ export const MENU = [
         },
         price: "16 ",
         photo: "Фото 2, правый нижний блок, раздел ДЕСЕРТЫ",
-        isBottomDots: true,
       },
       {
         label: {
@@ -532,17 +531,29 @@ export const BAR = [
         photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
       },
       {
-        label: { ru: "Фермерский Эль (450 мл)", en: "Farmhouse Ale (450 ml)", zh: "農舍艾爾啤酒 (450 毫升)" },
+        label: {
+          ru: "Фермерский Эль (450 мл)",
+          en: "Farmhouse Ale (450 ml)",
+          zh: "農舍艾爾啤酒 (450 毫升)",
+        },
         price: "10",
         photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
       },
       {
-        label: { ru: "Вишневый Эль (450 мл)", en: "Cherry Ale (450 ml)", zh: "櫻桃艾爾啤酒 (450 毫升)" },
+        label: {
+          ru: "Вишневый Эль (450 мл)",
+          en: "Cherry Ale (450 ml)",
+          zh: "櫻桃艾爾啤酒 (450 毫升)",
+        },
         price: "15",
         photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
       },
       {
-        label: { ru: "Pils (450 мл)", en: "Pils (450 ml)", zh: "皮爾斯 (450 毫升)" },
+        label: {
+          ru: "Pils (450 мл)",
+          en: "Pils (450 ml)",
+          zh: "皮爾斯 (450 毫升)",
+        },
         price: "12",
         photo: "Фото 1, правый верхний блок, раздел ПИВО, Бутылочное",
       },
@@ -840,7 +851,7 @@ export const BAR = [
         price: "5",
         photo: "Фото 1, нижний правый блок, раздел КОФЕ/ЧАЙ",
       },
-          {
+      {
         label: {
           ru: "Горячий цитрус (120 мл)",
           en: "Hot citrus (120 ml)",
@@ -1400,4 +1411,30 @@ export const DRINKS = [
   //     },
   //   ],
   // },
+];
+export const HOOKA = [
+  {
+    label: {},
+    background: "light-bg",
+    links: [
+      {
+        label: { ru: "СТАНДАРТНЫЙ", en: "STANDARD", zh: "標準" },
+        description: { ru: "чайный лист", en: "tea leaf", zh: "茶葉" },
+        price: "40",
+        photo: "",
+      },
+    ],
+  },
+  {
+    label: {},
+    background: "light-bg",
+    links: [
+      {
+        label: { ru: "ПРЕМИУМ", en: "PREMIUM", zh: "優質的" },
+        description: { ru: "табачный лист", en: "tobacco leaf", zh: "菸葉" },
+        price: "45",
+        photo: "",
+      },
+    ],
+  },
 ];

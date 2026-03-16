@@ -4,6 +4,7 @@ import "./App.scss";
 import Bar from "./bar";
 import Menu from "./menu";
 import Drinks from "./drinks";
+import Hooka from "./hooka";
 import { Modal } from "./modal";
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
       <div ref={barRef} id="bar" className={`${is18 ? "" : "hide-menu"}`}>
         <Bar lang={lang} />
         <Drinks lang={lang} />
+        <Hooka lang={lang} />
       </div>
       {isShowModal && (
         <Modal

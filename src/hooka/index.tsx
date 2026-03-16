@@ -1,27 +1,23 @@
-import { BAR } from "../config";
+import { HOOKA } from "../config";
 
 type Lang = "ru" | "en" | "zh";
 
-function Bar({ lang }: { lang: Lang }) {
+function Hooka({ lang }: { lang: Lang }) {
   return (
     <>
-      <div className={`menu-container `} id="bar">
-        <header
-          className="menu-header"
-          style={{
-            justifyContent: "center",
-            padding: "0px",
-            paddingTop: "24px",
-          }}
-        >
-          <div className="horizontal-menu-text">BAR</div>
+      <div
+        className={`menu-container `}
+        id="hooka"
+        style={{ paddingTop: "24px" }}
+      >
+        <header className="menu-header">
+          <div className="horizontal-menu-text">HOOKA</div>
         </header>
-        {BAR.map((el) => {
-          const { label, links, background } = el;
+        {HOOKA.map((el, i) => {
+          const { links, background } = el;
           return (
-            <section className={`menu-section ${background}`} key={label.ru}>
-              <h2 className={`section-title ${background}`}>{label[lang]}</h2>
-              <ul className="menu-list">
+            <section className={`menu-section ${background}`} key={i}>
+              <ul className="menu-list" style={{ paddingTop: "0px" }}>
                 {links.map((link) => {
                   const {
                     label: l,
@@ -31,7 +27,7 @@ function Bar({ lang }: { lang: Lang }) {
                   } = link;
                   return (
                     <li key={l.ru}>
-                      <b>{l[lang]}</b>
+                      <b style={{ fontSize: "20px" }}>{l[lang]}</b>
                       {lang !== "ru" ? (
                         <span>{l["ru"].split("(")[0]}</span>
                       ) : null}
@@ -49,4 +45,4 @@ function Bar({ lang }: { lang: Lang }) {
   );
 }
 
-export default Bar;
+export default Hooka;
