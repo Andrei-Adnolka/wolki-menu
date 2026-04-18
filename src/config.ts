@@ -932,7 +932,7 @@ export const BAR = [
           en: "Finlandia (50 ml)",
           zh: "Finlandia (50 毫升)",
         },
-        price: "1",
+        price: "11",
         photo: "Фото 1, левый блок, раздел ВОДКА",
       },
     ],
