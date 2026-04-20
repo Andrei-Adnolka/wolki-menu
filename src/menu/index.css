@@ -3,7 +3,7 @@
   margin: 20px auto;
   background-color: #000;
   /* Черный фон */
-  box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #a89c9c;
   position: relative;
   border-radius: 16px;
   color: #fff;
@@ -91,7 +91,7 @@
 }
 
 .menu-section {
-  margin-bottom: 25px;
+  margin-bottom: 8px;
   padding: 0 24px;
   background-color: #000;
   /* Черный фон */
@@ -100,54 +100,15 @@
   /* Белый текст */
 }
 
-.menu-section.without-bg {
-  background-color: #000;
-  /* Оставляем черный */
-}
-
-.menu-section.without-bg ul {
-  border: 0;
-  padding: 0px;
-  padding-top: 16px;
-}
-
-.menu-section.black-bg {
-  border-color: #000;
-}
-
-.menu-section.without-bg b,
-.menu-section.orange-bg b {
-  color: #fff;
-  /* Белый текст, не черный */
-}
-
-.menu-section.orange-bg .price {
-  color: #d46c3c;
-  /* Оранжевая цена */
-}
-
 .section-title {
   font-weight: 700;
-  font-size: 26px;
-  color: #fff;
+  font-size: 20px;
+  color: #d46c3c;
   border-bottom: 2px solid #d46c3c;
   padding: 8px 0;
   margin: 0;
   text-transform: uppercase;
-}
-
-.section-title.without-bg {
-  color: #d46c3c;
-  background-color: #000;
-  border-bottom: 5px dotted #d46c3c;
-  font-size: 28px;
-  text-align: left;
-  padding: 16px 0px 5px;
-}
-
-.section-title.black-bg {
-  background-color: #000;
-  color: #fff;
+  text-align: center;
 }
 
 .menu-list {
@@ -155,11 +116,11 @@
   margin: 0;
   padding: 0px;
   color: #fff;
-  padding-top: 24px;
+  padding-top: 16px;
 }
 
 .menu-list li {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   font-weight: 400;
   position: relative;
   color: #fff;
@@ -167,11 +128,10 @@
 }
 
 .menu-list li b {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 700;
-  text-transform: uppercase;
   display: block;
-  width: 85%;
+  width: 70%;
 }
 
 .menu-list li span {
@@ -184,17 +144,18 @@
 }
 
 .menu-list li small {
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   color: #aaa;
   /* Светло-серый для дополнительной информации */
   display: block;
   font-weight: 400;
   text-transform: none;
+  width: 70%;
 }
 
 .price[class] {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   color: #d46c3c;
   /* Оранжевая цена */
@@ -214,7 +175,7 @@
 }
 
 .menu-section:last-of-type {
-  padding-bottom: 40px;
+  padding-bottom: 32px;
 }
 
 .horizontal-menu-text {

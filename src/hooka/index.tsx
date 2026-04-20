@@ -27,7 +27,7 @@ function Hooka({ lang }: { lang: Lang }) {
                   } = link;
                   return (
                     <li key={l.ru}>
-                      <b style={{ fontSize: "20px" }}>{l[lang]}</b>
+                      <b style={{ fontSize: "16px" }}>{l[lang]}</b>
                       {lang !== "ru" ? (
                         <span>{l["ru"].split("(")[0]}</span>
                       ) : null}

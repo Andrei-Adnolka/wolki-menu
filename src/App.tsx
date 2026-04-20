@@ -2,9 +2,8 @@ import { useEffect, useRef, useState } from "react";
 // @ts-ignore
 import "./App.scss";
 import Bar from "./bar";
-import Menu from "./menu";
-import Drinks from "./drinks";
 import Hooka from "./hooka";
+import Menu from "./menu";
 import { Modal } from "./modal";
 
 function App() {
@@ -57,9 +56,8 @@ function App() {
     <div className="App">
       <Menu lang={lang} setLang={setLang} />
       <div ref={barRef} id="bar" className={`${is18 ? "" : "hide-menu"}`}>
-        <Bar lang={lang} />
-        <Drinks lang={lang} />
         <Hooka lang={lang} />
+        <Bar lang={lang} />
       </div>
       {isShowModal && (
         <Modal

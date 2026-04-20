@@ -37,10 +37,10 @@ function Menu({ lang, setLang }: { lang: Lang; setLang: (arg: Lang) => void }) {
         </div>
       </header>
       {MENU.map((el, i) => {
-        const { label, links, background } = el;
+        const { label, links } = el;
         return (
-          <section className={`menu-section ${background}`}>
-            <h2 className={`section-title ${background}`}>{label[lang]}</h2>
+          <section className={`menu-section`}>
+            <h2 className={`section-title`}>{label[lang]}</h2>
             <ul className="menu-list">
               {links.map((link) => {
                 const {
