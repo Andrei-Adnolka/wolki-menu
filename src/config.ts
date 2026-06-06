@@ -131,24 +131,24 @@ export const MENU = [
     label: { ru: "БУРГЕРЫ", en: "BURGERS", zh: "汉堡" },
     links: [
       {
-        label: { ru: "Чизбургер", en: "Cheeseburger", zh: "芝士汉堡" },
-        price: "🌶️ 19.00",
+        label: { ru: "Чизбургер 🌶️", en: "Cheeseburger 🌶️", zh: "芝士汉堡 🌶️" },
+        price: "19.00",
       },
       {
         label: {
-          ru: "Двойной чизбургер",
-          en: "Double Cheeseburger",
-          zh: "双层芝士汉堡",
+          ru: "Двойной чизбургер 🌶️",
+          en: "Double Cheeseburger 🌶️",
+          zh: "双层芝士汉堡 🌶️",
         },
-        price: "🌶️ 26.00",
+        price: "26.00",
       },
       {
         label: {
-          ru: "Чикенбургер с ананасом",
-          en: "Chicken Burger with Pineapple",
-          zh: "菠萝鸡肉堡",
+          ru: "Чикенбургер с ананасом 🌶️",
+          en: "Chicken Burger with Pineapple 🌶️",
+          zh: "菠萝鸡肉堡 🌶️",
         },
-        price: "🌶️ 18.00",
+        price: "18.00",
       },
       {
         label: {
@@ -221,8 +221,8 @@ export const MENU = [
         price: "17.00",
       },
       {
-        label: { ru: "Острые крылья", en: "Hot Wings", zh: "辣味鸡翅" },
-        price: "🌶️ 17.00",
+        label: { ru: "Острые крылья 🌶️", en: "Hot Wings 🌶️", zh: "辣味鸡翅 🌶️" },
+        price: "17.00",
       },
       {
         label: {
@@ -412,6 +412,218 @@ export const MENU = [
       {
         label: { ru: "Мороженое", en: "Ice Cream", zh: "冰淇淋" },
         price: "4.00",
+      },
+    ],
+  },
+  {
+    label: {
+      ru: "НАПИТКИ",
+      en: "DRINKS",
+      zh: "饮料",
+    },
+    links: [
+      {
+        label: {
+          ru: "Coca-Cola (330мл)",
+          en: "Coca-Cola (330ml)",
+          zh: "可口可乐 (330毫升)",
+        },
+        price: "5.00",
+      },
+      {
+        label: {
+          ru: "Fanta (330мл)",
+          en: "Fanta (330ml)",
+          zh: "芬达 (330毫升)",
+        },
+        price: "5.00",
+      },
+      {
+        label: {
+          ru: "Sprite (330мл)",
+          en: "Sprite (330ml)",
+          zh: "雪碧 (330毫升)",
+        },
+        price: "5.00",
+      },
+      {
+        label: {
+          ru: "Bonaqua (500мл)",
+          en: "Bonaqua (500ml)",
+          zh: "Bonaqua 矿泉水 (500毫升)",
+        },
+        price: "4.00",
+      },
+      {
+        label: {
+          ru: "Gorilla (500мл)",
+          en: "Gorilla Energy Drink (500ml)",
+          zh: "Gorilla 能量饮料 (500毫升)",
+        },
+        price: "6.00",
+      },
+      {
+        label: {
+          ru: "Сок Villa Dini в ассортименте (200мл)",
+          en: "Villa Dini Juice assorted (200ml)",
+          zh: "Villa Dini 各种口味果汁 (200毫升)",
+        },
+        price: "3.00",
+      },
+    ],
+  },
+  {
+    label: {
+      ru: "КОФЕ",
+      en: "COFFEE",
+      zh: "咖啡",
+    },
+    links: [
+      {
+        label: {
+          ru: "Эспрессо (30мл)",
+          en: "Espresso (30ml)",
+          zh: "浓缩咖啡 (30毫升)",
+        },
+        price: "5.00",
+      },
+      {
+        label: {
+          ru: "Американо (170мл)",
+          en: "Americano (170ml)",
+          zh: "美式咖啡 (170毫升)",
+        },
+        price: "5.00",
+      },
+      {
+        label: {
+          ru: "Капучино (220мл)",
+          en: "Cappuccino (220ml)",
+          zh: "卡布奇诺 (220毫升)",
+        },
+        price: "6.00",
+      },
+      {
+        label: {
+          ru: "Латте (230мл)",
+          en: "Latte (230ml)",
+          zh: "拿铁 (230毫升)",
+        },
+        price: "7.00",
+      },
+      {
+        label: {
+          ru: "Флет-Уайт (240мл)",
+          en: "Flat White (240ml)",
+          zh: "澳白咖啡 (240毫升)",
+        },
+        price: "7.00",
+      },
+      {
+        label: {
+          ru: "Раф (250мл)",
+          en: "Raf Coffee (250ml)",
+          zh: "拉夫咖啡 (250毫升)",
+        },
+        price: "7.00",
+      },
+    ],
+  },
+  {
+    label: {
+      ru: "ЧАЙ",
+      en: "TEA",
+      zh: "茶",
+    },
+    links: [
+      {
+        label: {
+          ru: "Молочный улун (500мл)",
+          en: "Milk Oolong (500ml)",
+          zh: "奶香乌龙 (500毫升)",
+        },
+        price: "7.00",
+      },
+      {
+        label: {
+          ru: "Ассам (500мл)",
+          en: "Assam Tea (500ml)",
+          zh: "阿萨姆红茶 (500毫升)",
+        },
+        price: "7.00",
+      },
+      {
+        label: {
+          ru: "Сенча (500мл)",
+          en: "Sencha (500ml)",
+          zh: "煎茶 (500毫升)",
+        },
+        price: "7.00",
+      },
+      {
+        label: {
+          ru: "Фруктовый чай (500мл)",
+          en: "Fruit Tea (500ml)",
+          zh: "水果茶 (500毫升)",
+        },
+        price: "7.00",
+      },
+      {
+        label: {
+          ru: "Гречишный чай (500мл)",
+          en: "Buckwheat Tea (500ml)",
+          zh: "苦荞茶 (500毫升)",
+        },
+        price: "7.00",
+      },
+      {
+        label: {
+          ru: "Имбирный чай (500мл)",
+          en: "Ginger Tea (500ml)",
+          zh: "姜茶 (500毫升)",
+        },
+        price: "11.00",
+      },
+      {
+        label: {
+          ru: "Облепиховый чай (500мл)",
+          en: "Sea Buckthorn Tea (500ml)",
+          zh: "沙棘茶 (500毫升)",
+        },
+        price: "11.00",
+      },
+      {
+        label: {
+          ru: "Ромашковый чай с клюквой и бузиной (500мл)",
+          en: "Chamomile Tea with cranberry and elderberry (500ml)",
+          zh: "洋甘菊蔓越莓接骨木花茶 (500毫升)",
+        },
+        price: "9.00",
+      },
+    ],
+  },
+  {
+    label: {
+      ru: "ГОРЯЧИЕ НАПИТКИ",
+      en: "HOT DRINKS",
+      zh: "热饮",
+    },
+    links: [
+      {
+        label: {
+          ru: "Какао с маршмеллоу (210мл)",
+          en: "Cocoa with marshmallows (210ml)",
+          zh: "棉花糖可可 (210毫升)",
+        },
+        price: "8.00",
+      },
+      {
+        label: {
+          ru: "Горячий шоколад с маршмеллоу (120мл)",
+          en: "Hot chocolate with marshmallows (120ml)",
+          zh: "棉花糖热巧克力 (120毫升)",
+        },
+        price: "11.00",
       },
     ],
   },
